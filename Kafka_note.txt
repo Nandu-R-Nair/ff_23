@@ -1,0 +1,21 @@
+1. Spark streaming is a core API --> Enables to collect high-through put data
+
+2. Enable multi threading  --> local(n)
+
+3. The number of cores should be more than number of receivers in case of cluster environment
+
+4. DStreams --> Continuous live data
+
+5. Kafka is distributed Streaming platform --> Cluster, Fault-tolerant & durable
+
+Kafka
+-------
+
+Topics --> Categories of records
+Brokers --> Servers in the cluster
+Topics are broken into partitions which are ordered
+Partition log --> ID of partitions
+Message_ID --> Offsets
+
+Producers --> Publishing messages to Kafka
+Consumers --> Consuming messages from Kafka
